@@ -54,13 +54,11 @@
 }
 
 
-
-
-
-/* Desktop only */
+/* DEFAULT (Desktop first) */
 .desktop {
   display: block;
 }
+
 .mobile {
   display: none;
 }
@@ -74,3 +72,4 @@
     display: block;
   }
 }
+
