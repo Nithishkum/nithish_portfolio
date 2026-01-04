@@ -111,3 +111,33 @@
   }
 }
 
+
+
+
+
+/* Default → Desktop */
+.contact-icon-desktop,
+.contact-link-desktop {
+  display: inline-flex;
+}
+
+.contact-icon-mobile,
+.contact-link-mobile {
+  display: none;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .contact-icon-desktop,
+  .contact-link-desktop {
+    display: none;
+  }
+
+  .contact-icon-mobile,
+  .contact-link-mobile {
+    display: inline-flex;
+  }
+}
+
+
+
