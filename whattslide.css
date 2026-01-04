@@ -73,3 +73,41 @@
   }
 }
 
+
+/* Common button style */
+.contact-btn {
+  display: inline-block;
+  padding: 8px 16px;
+  border: 1px solid #c778dd;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.contact-btn:hover {
+  background-color: #c778dd;
+  color: #282c33;
+}
+
+/* Default → Desktop */
+.contact-btn-desktop {
+  display: block;
+  margin-bottom: 10px;
+}
+.contact-btn-mobile {
+  display: none;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .contact-btn-desktop {
+    display: none;
+  }
+  .contact-btn-mobile {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
