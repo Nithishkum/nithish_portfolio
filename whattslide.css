@@ -75,15 +75,16 @@
 
 
 /* Common button style */
-.contact-btn {
-  display: inline-block;
-  padding: 8px 16px;
-  border: 1px solid #c778dd;
-  color: #ffffff;
-  text-decoration: none;
+.main-contact .contact-btn {
+  display: flex;
+  padding: 10px 20px;
   font-size: 16px;
-  font-weight: 500;
-  transition: all 0.3s ease;
+  color: #ffffff;
+  background-color: #9157ff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .contact-btn:hover {
@@ -95,6 +96,7 @@
 .contact-btn-desktop {
   display: block;
   margin-bottom: 10px;
+  
 }
 .contact-btn-mobile {
   display: none;
@@ -138,6 +140,7 @@
     display: inline-flex;
   }
 }
+
 
 
 
